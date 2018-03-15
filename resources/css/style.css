@@ -36,6 +36,19 @@ html {
   padding: 0.5rem;
   color: rgb(255, 255, 255);
 }
+
+
+/* song container */
+
+#songlist {
+  padding: 1.5rem;
+  border-bottom: solid 1px rgb(204, 204, 204);
+}
+
+.fa-play-circle-o {
+  color: rgb(255, 0, 171);
+}
+
 /*
   Custom styles for Trackster App
 */

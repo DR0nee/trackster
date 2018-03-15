@@ -16,8 +16,10 @@ $(document).ready(function() {
 */
 Trackster.renderTracks = function(tracks) {
 
-};
+  for (var trackIndex = 0, trackIndex < track.length; trackindex++)
 
+
+};
 /*
   Given a search term as a string, query the LastFM API.
   Render the tracks given in the API query response.
