@@ -30,6 +30,12 @@ html {
   border-radius: 20px;
   text-align: center;
 }
+
+#informationrow {
+  background-color: rgb(104, 0, 255);
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+}
 /*
   Custom styles for Trackster App
 */

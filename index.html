@@ -16,15 +16,24 @@
   <script type="text/javascript" src="./resources/js/tests.js"></script>
 </head>
 <body>
-  <header>
     <div class="container-fluid">
       <div class="row header">
         <h1 class="col-xs-7">Trackster</h1>
-        <input class="col-xs-2" type="text" name="" value="" placeholder="Whatcha lookin' for?">
+        <input id="searchinput" class="col-xs-2" type="text" name="" value="" placeholder="Whatcha lookin' for?">
         <i class="fa fa-search fa-2x col-xs-1" id="searchbutton"></i>
       </div>
+      <div class="row text-center" id="informationrow">
+        <div class="col-xs-5">Song</div>
+        <div class="col-xs-2">Artist</div>
+        <div class="col-xs-2">Artwork</div>
+        <div class="col-xs-2">Popularity</div>
+        <div class="col-xs-1">Length</div>
+      </div>
     </div>
-  </header>
+    <div class="container-fluid">
+      <div class="row" id="songlist">
+      </div>
+    </div>
 
 </body>
 </html>
