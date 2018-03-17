@@ -49,6 +49,18 @@ html {
   color: rgb(255, 0, 171);
 }
 
+.infoline {
+  display: flex;
+  border-bottom: solid 1px rgb(204, 204, 204);
+
+}
+
+.infoline div {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+}
+
 /*
   Custom styles for Trackster App
 */
