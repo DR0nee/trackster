@@ -29,7 +29,7 @@ Trackster.renderTracks = function(tracks) {
     `  <div class="col-xs-4">` + track.name + `</div>` +
     `  <div class="col-xs-2">` + track.artist + `</div>` +
     `  <div class="col-xs-2"><img src=`+ mediumAlbumArt + `/></div>` +
-    `  <div class="col-xs-2">` + track.Popularity + `</div>` +
+    `  <div class="col-xs-2">` + track.listeners + `</div>` +
     `</div>`;
 $(".results").append(trackInfo);
   }
